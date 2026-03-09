@@ -3,6 +3,11 @@
     .name = .immut_std,
     .version = "0.1.0",
     .minimum_zig_version = "0.15.0",
-    .dependencies = .{},
+    .dependencies = .{
+        .immut_std = .{
+            .url = "https://github.com/Ian-and-code/immut-std/archive/refs/tags/version.tar.gz",
+            .hash = "immut_std-0.1.0-tuyBEx8nJQ1cc74A2ex1bvLJNclkbUPKiU2wpo7ZkFxO",
+        },
+    },
     .paths = .{"."},
 }

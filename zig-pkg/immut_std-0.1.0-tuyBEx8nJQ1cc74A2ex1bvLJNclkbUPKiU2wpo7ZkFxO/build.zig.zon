@@ -1,0 +1,8 @@
+.{
+    .fingerprint = 0x24aeb12d1381ecb6,
+    .name = .immut_std,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{},
+    .paths = .{"."},
+}
